@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/dark.css" id="theme">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- favicon link -->
+    <link rel="icon" type="image/png" href="assets/calculator.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="top-button">
+                <button type="button" class="theme-button">
+                    <img src="assets/SunIcon.svg" alt="Theme Icon" height="40" id="theme-icon">
+            </div>
+            <form>
+                <input type="text" name="history" id="history">
+                <input type="text" name="result" id="result" placeholder="0">
+            </form>
+
+            <div class="calculator">
+                <div class="first">
+                    <button class="clear" id="backspace">C</button>
+                    <button class="clear" id="clear">AC</button>
+                    <button value="^" data-operator>^</button>
+                    <button value="÷" data-operator>÷</button>
+                </div>
+
+                <div class="second">
+                    <button value="7" data-number>7</button>
+                    <button value="8" data-number>8</button>
+                    <button value="9" data-number>9</button>
+                    <button value="*" data-operator>&times;</button>
+                </div>
+
+                <div class="third">
+                    <button value="4" data-number>4</button>
+                    <button value="5" data-number>5</button>
+                    <button value="6" data-number>6</button>
+                    <button value="-" data-operator>-</button>
+                </div>
+
+                <div class="fourth">
+                    <button value="1" data-number>1</button>
+                    <button value="2" data-number>2</button>
+                    <button value="3" data-number>3</button>
+                    <button value="+" data-operator>+</button>
+                </div>
+
+                <div class="fifth">
+                    <button value="0" class="zero" data-number>0</button>
+                    <button value="." class="none" id="point">.</button>
+                    <button value="=" class="none" id="equals">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
