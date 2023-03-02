@@ -136,31 +136,6 @@ button:hover {
     color: #fff;
 }
 
-@media screen and (max-width:991px) {
-    button {
-        height: 10px;
-        font-size: 18px;
-        line-height: 50%;
-    }
-
-    .wrapper {
-        width: 50%;
-        height: 80%;
-        font-size: 15px;
-        border-radius: 50px;
-    }
-
-    #history {
-        padding-bottom: 5px;
-        width: 80%;
-    }
-
-    #result {
-        padding-bottom: 40px;
-        width: 80%;
-    }
-}
-
 @media screen and (max-width:768px) {
     button {
         width: 75px;

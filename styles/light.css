@@ -131,7 +131,7 @@ button:hover {
     color: #fff;
 }
 
-@media screen and (max-width:991px) {
+/* @media screen and (max-width:991px) {
     button {
         height: 10px;
         font-size: 18px;
@@ -148,14 +148,13 @@ button:hover {
     #result {
         padding-bottom: 40px;
     }
-}
+} */
 
 @media screen and (max-width:768px) {
     button {
         width: 75px;
         height: 10px;
         margin: 6px;
-        /* margin-left: 20px; */
         line-height: 50%;
         font-size: 18px;
     }
