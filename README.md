@@ -1,4 +1,5 @@
 # Calculator
+
 A simple calculator application built using HTML, CSS and JavaScript. It also has dark mode.
 
 <div align="center">
@@ -11,9 +12,10 @@ A simple calculator application built using HTML, CSS and JavaScript. It also ha
 </div>
 
 Live Project:
+
 - https://f3hint0la.github.io/Calculator
 
 ![Calculator Preview Image](assets/mockup.png)
 
-* Favicon from:
-<a href="https://www.flaticon.com/free-icon/calculator" title="calculator">Flaticon</a>
+- Favicon from:
+  <a href="https://www.flaticon.com/free-icons/calculator" title="calculator">Flaticon</a>
