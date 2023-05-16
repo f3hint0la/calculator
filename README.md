@@ -13,7 +13,7 @@ A simple calculator application built using HTML, CSS and JavaScript. It also ha
 
 Live Project:
 
-- https://f3hint0la.github.io/Calculator
+- https://f3hint0la.github.io/calculator
 
 ![Calculator Preview Image](assets/mockup.png)
 
